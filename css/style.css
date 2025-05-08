@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+header.hero {
+  background: url('/img/not.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 40px 40px;
+  text-align: left;
+  position: relative;
+}
+
+@font-face {
+  font-family:'fonte';
+  src: url(BLABLA);
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img_codigo{
+
+  width: 330px;
+  height: 365px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px 40px;
+  background-color: #0000002a;
+  border-radius: 20px;
+  margin-top: 3%;
+  width: 80%;
+  margin-left: 8%
+}
+
+
+.text-block {
+  max-width: 500px;
+}
+
+.text-block h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.image-block img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
